@@ -1,6 +1,6 @@
 {
   "name": "cradle",
-  "version": "0.6.9-wodk",
+  "version": "0.6.10-wodk",
   "description": "the high-level, caching, CouchDB library",
   "url": "http://cloudhead.io/cradle",
   "keywords": ["couchdb", "database", "couch"],
@@ -15,19 +15,19 @@
     "url": "https://github.com/wilsonodk/cradle.git"
   },
   "main": "./lib/cradle",
-  "dependencies": { 
+  "dependencies": {
     "follow": "0.8.x",
     "request": "2.x.x",
     "vargs": "0.1.0"
   },
-  "devDependencies": { 
+  "devDependencies": {
     "async": "~0.1.x",
     "vows": "0.6.x"
   },
-  "scripts": { 
+  "scripts": {
     "test": "node test/helpers/seed.js && vows --spec"
   },
-  "engines": { 
+  "engines": {
     "node": ">=0.6.0"
   }
 }
